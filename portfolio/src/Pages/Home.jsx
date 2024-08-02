@@ -50,7 +50,7 @@ export const Home = () => {
           </div>
           <div id='emu'>
 
-        <MdOutlineAttachEmail  onClick={() => handleIconClick("mailto:palaitapaskumar8@gmail.com")} style={{height:"40px",width:"50px"}} />
+        <MdOutlineAttachEmail id="em"  onClick={() => handleIconClick("mailto:palaitapaskumar8@gmail.com")} style={{height:"40px",width:"50px"}} />
           </div>
           
         </div>
