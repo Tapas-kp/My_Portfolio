@@ -57,7 +57,7 @@ export const Home = () => {
         <div id='btn'>
         <button onClick={()=>{resumeDownload()}}>Download Resume</button>
 
-<button>Hire Me</button>
+<a href="#contact"><button > Hire Me</button></a>
 
         </div>
 

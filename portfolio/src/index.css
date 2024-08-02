@@ -99,8 +99,12 @@ button{
     margin-left: 50px;
 
 }
+#btn>button:hover{
+  background-color: rgb(126, 167, 167);
+
+}
 #btn:hover{
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 #linku:hover{
     background-color: aqua;
@@ -551,5 +555,8 @@ li:hover{
         display: inline-block;
         background-color: white;
         border-radius: 10px;
+      }
+      #btn>a>button:hover{
+        background-color: rgb(126, 167, 167);
       }
       
