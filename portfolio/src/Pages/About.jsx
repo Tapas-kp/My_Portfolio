@@ -23,7 +23,7 @@ export const About = () => {
 
           </p>
           <br />
-          <div id='right-location'><MdLocationOn  style={{height:"20px",width:"20px",color:"aqua"}}/><h4>Bhubaneswar,Odisha</h4></div>
+          <div id='right-location'><MdLocationOn  id='loc' style={{height:"20px",width:"20px",color:"aqua"}}/><h4>Bhubaneswar,Odisha</h4></div>
         </div>
       </div>
     </div>

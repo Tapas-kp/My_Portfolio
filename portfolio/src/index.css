@@ -559,4 +559,11 @@ li:hover{
       #btn>a>button:hover{
         background-color: rgb(126, 167, 167);
       }
+      #right-location>#loc:hover{
+        padding-bottom: 5px;
+        background-color:grey;
+        border-radius: 20%;
+        
+
+      }
       
