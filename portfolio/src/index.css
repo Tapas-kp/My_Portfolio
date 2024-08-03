@@ -566,4 +566,99 @@ li:hover{
         
 
       }
+      /* responsive */
+      @media all and (max-width: 350px) {
+        .navbar {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          /* border: 1px solid black; */
+          /* width: 100%; */
+          width: 100%;
+          
+          
+          border: transparent;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          border-radius: 7px;
+          
+        }
+        .navbarMain{
+          /* width: 100%; */
+          /* background-color: aqua; */
+          
+       }
+       .navbar>li{
+        padding: 5px;
+        margin: auto;
+
+       }
+       
+
+
+       #home{
+        /* width: 100%; */
+        width: 86em;
+        height: 77em;
+        border: 2px solid red;
+        
+        padding-top: 120%;
+        
+        
+       }
+       li{
+        font-size: 40px;
+        font-weight: 800;
+    }
+    li:hover{
+        
+        color: brown;
+    }
+    #left-home{
+      border: 1px solid black;
+      box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      width: 800px;
+      
+      top: 0;
+  }
+  #right-home{
+      /* border: 1px solid black; */
+      margin: auto;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  
+  }
+
+
+  #left-home>h1{
+    font-weight: 600;
+    font-size:60px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    margin-left: 50px;
+    color: white;
+    
+    
+
+}
+#left-home>p{
+    font-weight: 600;
+    font-size:45px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    margin-left: 50px;
+    color: white;
+    
+
+}
+h2{
+  font-size: 42px;
+}
+.word{
+  font-size: 50px;
+}
+
+  
+
+
+      }
+      
       
