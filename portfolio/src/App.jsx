@@ -20,8 +20,8 @@ function App() {
     return(
         <div style={obj} id='gandu'>
         <Navbar/>
-        {/* <Home/> */}
-        {/* <About/> */}
+        <Home/>
+        <About/>
         {/* <Skills/> */}
         {/* <Projects/> */}
         {/* <Gitstatus/> */}
