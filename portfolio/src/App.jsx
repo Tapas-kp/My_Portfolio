@@ -23,9 +23,9 @@ function App() {
         <Home/>
         <About/>
         <Skills/>
-        {/* <Projects/> */}
-        {/* <Gitstatus/> */}
-        {/* <Contact/> */}
+        <Projects/>
+        <Gitstatus/>
+        <Contact/>
         </div>
     )
   

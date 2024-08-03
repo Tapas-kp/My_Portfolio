@@ -40,8 +40,9 @@ export const Projects = () => {
         ensuring seamless navigation and a streamlined 
         checkout process.
         </p>
-        
         <br />
+        
+        
         <div id='p-last'>
           <button onClick={()=> handleGit("https://github.com/Tapas-kp/sephora")}>GIT</button>
           <button onClick={()=>handleLive("https://sephora-delta.vercel.app/")}>LIVE</button>
