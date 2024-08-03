@@ -569,17 +569,23 @@ li:hover{
         .navbarMain{
           border: 1px solid;
           /* display: grid; */
+         
         }
         .navbar{
-          border: 1px solid;
+          /* border: 1px solid; */
           display: grid;
+          border-radius: 10px;
           width: 100%;
           align-items: center;
+          height: 179px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+          
         }
         .navbarMain>:nth-child(2){
           width: fit-content;
           display: none;
         }
+       
 
         /* Home */
         .home{
@@ -587,13 +593,19 @@ li:hover{
           display: flex;
           flex-direction: column-reverse  ;
           /* position: relative; */
-          margin-top: 15.2em;
+          margin-top: 21em;
+          background-color: black;
         }
         #right-home>img{
-          width: 300px;
+          width: 100%;
         }
         #left-home{
           width: 100%;
+        }
+        #right-home{
+          margin-top: -80px;
+          background-color: black;
+      
         }
         #left-home>.myName{
           font-size: 2em;
@@ -760,7 +772,7 @@ li:hover{
       height: 100%;
       width: 100%;
     }
-      
+   
         
 
         
