@@ -24,7 +24,9 @@ export const Navbar = () => {
         <li><a target='_blank' href="/TapasKumarPalai-FullStackWebDeveloper.pdf">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
+    <div>
     <Switch  onChange={click} />
+    </div>
     </div>
     </>
   )
