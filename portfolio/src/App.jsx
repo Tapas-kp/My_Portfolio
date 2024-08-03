@@ -22,9 +22,9 @@ function App() {
         <Navbar/>
         <Home/>
         <About/>
-        <Skills/>
+        {/* <Skills/> */}
         <Projects/>
-        <Gitstatus/>
+        {/* <Gitstatus/> */}
         <Contact/>
         </div>
     )
