@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -569,6 +571,7 @@ li:hover{
         .navbarMain{
           border: 1px solid;
           /* display: grid; */
+          
          
         }
         .navbar{
@@ -747,10 +750,7 @@ li:hover{
           
           
       }
-    #p-left img{
-      /* width: 200px; */
-
-    }
+   
     #p-last>button{
       width:10em;
     }
