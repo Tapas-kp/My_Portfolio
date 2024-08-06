@@ -18,8 +18,11 @@ export const Navbar = () => {
     <>
     
     <div className="navbarMain">
+      <div className="empty">
       
-    <ul className='navbar' >
+      </div>
+      {/* <div className='chuitad'> */}
+         <ul className='navbar' >
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -28,8 +31,11 @@ export const Navbar = () => {
         <li><a href="#contact">Contact</a></li>
     </ul>
     <div>
-    <Switch  onChange={click} />
+    <Switch className='gandu'  onChange={click} />
     </div>
+      {/* </div> */}
+      
+   
     </div>
     </>
   )

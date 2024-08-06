@@ -37,7 +37,7 @@ export const Home = () => {
         <WordTransition wordsArray={[`MERN Stack Developer`, "Full Stack Developer","Frontend Developer","Backend Developer" ]}  />
       
         <br />
-        <p>Newcomer to web development,<span style={{color:"aqua"}}>Full stack developer</span> proficient in data <br /> retrieval andh processing,creating dynamic.</p>
+        <p>Newcomer to web development, <span style={{color:"aqua"}}>Full stack developer</span> proficient in data <br /> retrieval and processing, creating dynamic.</p>
         
         <div id='logo'>
           <div id='linku'>
@@ -57,7 +57,7 @@ export const Home = () => {
         <div id='btn'>
         <button onClick={()=>{resumeDownload()}}>Download Resume</button>
 
-<a href="#contact"><button > Hire Me</button></a>
+<a href="#contact" ><button id="scbtn"> Hire Me</button></a>
 
         </div>
 
