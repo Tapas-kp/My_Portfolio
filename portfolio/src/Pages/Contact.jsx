@@ -62,6 +62,9 @@ export const Contact = () => {
           </form>
 
         </section>
+        <div id='con-right'>
+
+        </div >
       </div>
     </div>
   )

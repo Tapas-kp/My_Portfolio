@@ -1,17 +1,11 @@
-a{
-   
-  margin-left: 150px;
-}
+
 
 #slide{
    display: flex;
    justify-content: flex-end;
    margin-top: -20px;
 }
-body{
-    border: 1px solid black;
-    height: 100%;
-}
+
 .rout{
     border: 1px solid red;
     height: 80em;
