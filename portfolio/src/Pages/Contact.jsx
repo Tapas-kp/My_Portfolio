@@ -40,7 +40,7 @@ export const Contact = () => {
     window.open(url, "_blank");
   };
   const handlewp = (url) => {
-    window.open(url, "_blank");
+    window.open(url, "_blank","noopener,noreferrer");
   };
 
   return (
@@ -119,7 +119,7 @@ export const Contact = () => {
             <FaSquareWhatsapp
             id="wps" 
             onClick={()=>{
-              handlewp("https://wa.me/qr/6XK22ZCIYMK6J1")
+              handlewp("https://api.whatsapp.com/send?phone=8599872592")
             }}
             style={{ height: "40px", width: "50px" }}
             />
