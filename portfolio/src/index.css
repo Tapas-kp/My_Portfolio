@@ -220,7 +220,6 @@ li:hover {
   width: 60%;
   margin: auto;
   margin-top: 100px;
-  
 }
 #avtar > img {
   height: 100%;
@@ -416,7 +415,7 @@ h4 {
   font-weight: 600;
   font-size: 20px;
   font-family: sans-serif;
-  text-align:start;
+  text-align: start;
   padding-left: 10px;
   color: white;
 }
@@ -438,9 +437,11 @@ h4 {
 }
 #c-inside {
   /* border: 1px solid black; */
-  height: 60%;
-  width: 40%;
-  margin: auto;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
 }
 #contact > h1 {
   font-weight: 900;
@@ -456,6 +457,8 @@ h4 {
   height: 550px;
   background-color: aqua;
   border-radius: 20px;
+  /* border: 2px solid; */
+  width: 35%;
 }
 form {
   max-width: 600px;
@@ -553,6 +556,38 @@ form button:hover {
   background-color: grey;
   border-radius: 20%;
 }
+#con-right {
+  border: 1px solid white;
+  height: 200px;
+  width: 40%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  border-radius: 10px;
+  padding-left: 10px;
+  align-items: center;
+  background-color: white;
+}
+.tk {
+  display: flex;
+}
+#locha {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#wps:hover {
+  color: green;
+  cursor: pointer;
+}
+#gts:hover {
+  color: rgb(55, 51, 51);
+  cursor: pointer;
+}
+#lnk:hover {
+  color: rgb(37, 37, 222);
+  cursor: pointer;
+}
 
 /* responsive */
 
@@ -560,6 +595,7 @@ form button:hover {
   .navbarMain {
     border: 1px solid;
     /* display: grid; */
+    height: 250px;
   }
   .navbar {
     /* border: 1px solid; */
@@ -567,11 +603,11 @@ form button:hover {
     border-radius: 10px;
     width: 100%;
     align-items: center;
-    height: 179px;
+    /* height: 179px; */
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
       rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   }
-  .navbarMain > :nth-child(2) {
+  .navbarMain > :nth-child(3) {
     width: fit-content;
     display: none;
   }
@@ -684,7 +720,7 @@ form button:hover {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  
+
   #t-inside {
     height: 100%;
     width: 100%;
@@ -752,16 +788,11 @@ form button:hover {
     height: 100%;
     width: 100%;
     border: 2px solid blue;
-    
   }
   #c-inside {
     height: 100%;
     width: 100%;
     border: 1px solid green;
-  }
-  #con-right{
-    border: 1px solid white;
-    height: 200px;
-    width: 200px;
+    
   }
 }
