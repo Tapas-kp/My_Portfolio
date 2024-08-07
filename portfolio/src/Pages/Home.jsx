@@ -43,7 +43,7 @@ export const Home = () => {
         <p>
           Newcomer to web development,{" "}
           <span style={{ color: "aqua" }}>Full stack developer</span> proficient
-          in data <br /> retrieval and processing, creating dynamic.
+          in data retrieval and processing, creating dynamic.
         </p>
 
         <div id="logo">

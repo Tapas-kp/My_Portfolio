@@ -147,6 +147,11 @@ li:hover {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: black;
 }
+.tk h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: -5px;
+}
 .change-text {
   font-size: 1.5rem;
   font-weight: 700;
@@ -592,18 +597,12 @@ form button:hover {
 /* responsive */
 
 @media all and (max-width: 400px) {
-  .navbarMain {
-    border: 1px solid;
-    /* display: grid; */
-    height: 250px;
-  }
   .navbar {
-    /* border: 1px solid; */
     display: grid;
     border-radius: 10px;
     width: 100%;
     align-items: center;
-    /* height: 179px; */
+
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
       rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   }
@@ -617,8 +616,7 @@ form button:hover {
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
-    /* position: relative; */
-    margin-top: 21em;
+    margin-top:14.2em;
     background-color: black;
   }
   #right-home > img {
@@ -795,18 +793,16 @@ form button:hover {
     /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
-    padding-left:0px;
+    padding-left: 0px;
   }
-  .con{
+  .con {
     width: 100%;
     padding: 0px 0px 0px 0px;
-    
-
   }
   #con-right {
     /* border: 1px solid rgb(4, 2, 2); */
     height: 200px;
-    width:97%;
+    width: 97%;
     margin: auto;
     /* display: grid; */
     /* grid-template-columns: repeat(1, 1fr); */
@@ -817,8 +813,7 @@ form button:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   .tk h1 {
-font-size: 18px;
-font-weight: 700;
+    font-size: 18px;
+    font-weight: 700;
   }
-  
 }
