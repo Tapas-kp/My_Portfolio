@@ -787,12 +787,38 @@ form button:hover {
   #contact {
     height: 100%;
     width: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
   }
   #c-inside {
     height: 100%;
     width: 100%;
-    border: 1px solid green;
-    
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    padding-left:0px;
   }
+  .con{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    
+
+  }
+  #con-right {
+    /* border: 1px solid rgb(4, 2, 2); */
+    height: 200px;
+    width:97%;
+    margin: auto;
+    /* display: grid; */
+    /* grid-template-columns: repeat(1, 1fr); */
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .tk h1 {
+font-size: 18px;
+font-weight: 700;
+  }
+  
 }

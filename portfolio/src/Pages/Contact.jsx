@@ -50,6 +50,7 @@ export const Contact = () => {
       <br />
 
       <div id="c-inside">
+
         <section className="con">
           <form onSubmit={onSubmit}>
             <h2>Contact form</h2>
@@ -84,6 +85,7 @@ export const Contact = () => {
             <button type="submit">Send</button>
           </form>
         </section>
+
         <div id="con-right">
           <div className="tk">
             <IoCall 
@@ -96,7 +98,7 @@ export const Contact = () => {
             <MdAttachEmail 
              style={{ height: "40px", width: "50px" }}
             />
-            <h1 style={{fontSize:"25px",fontWeight:"700"}}>palaitapaskumar8@gmail.com</h1>
+            <h1>palaitapaskumar8@gmail.com</h1>
           </div>
           <div id="locha">
             <IoLogoLinkedin
@@ -118,13 +120,14 @@ export const Contact = () => {
 
             <FaSquareWhatsapp
             id="wps" 
-            onClick={()=>{
-              handlewp("https://api.whatsapp.com/send?phone=8599872592")
-            }}
+            onClick={()=>
+              handlewp("https://api.whatsapp.com/send?phone=918599872592")
+            }
             style={{ height: "40px", width: "50px" }}
             />
           </div>
         </div>
+
       </div>
     </div>
   );
