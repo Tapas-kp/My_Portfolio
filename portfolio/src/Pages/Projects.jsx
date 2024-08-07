@@ -10,7 +10,7 @@ export const Projects = () => {
 
   return (
     <div id="main-proj">
-      <h1 style={{marginTop:"-47px"}}>Projects</h1>
+      <h1 >Projects</h1>
 
       <div id="inside">
         <div id="p-left">
